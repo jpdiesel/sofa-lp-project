@@ -14,6 +14,29 @@ no Main Colors, para um design um pouco mais rico
 header {
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+#whatslogo {
+  text-align: var(--e-icon-list-icon-align);
+  margin-top: 4em;
+}
+
+#number {
+  margin-top: 4em;
+  margin-right: 4em;
+}
+
+.main {
+  background-color: #6bbef1;
 }
 
 .main p{
@@ -58,6 +81,10 @@ header {
   width: auto;
 }
 
+.company-history {
+  background-color: #6bbef1;
+}
+
 .company-history p{
   display: flex;
   justify-content: center;
@@ -74,6 +101,14 @@ header {
   padding: 15px;
   margin: 0 auto;
   width: 200px;
+}
+
+summary p{
+  padding: 1em;
+}
+
+.split {
+  padding: 25px;
 }
 
 footer p{

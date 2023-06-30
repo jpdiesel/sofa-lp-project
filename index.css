@@ -39,29 +39,12 @@ header {
   background-color: #6bbef1;
 }
 
-.main p{
+.main p {
   display: flex;
   justify-content: center;
 }
 
-.main a{
-  display: flex;
-  justify-content: center;
-  font: bold 15px Arial;
-  text-decoration: none;
-  background-color: #33cc33;
-  color: white;
-  padding: 15px;
-  margin: 0 auto;
-  width: 200px;
-}
-
-.image-results h3{
-  display: flex;
-  justify-content: center;
-}
-
-.image-results a{
+.whatsapp-redirect {
   display: flex;
   justify-content: center;
   font: bold 15px Arial;
@@ -69,12 +52,25 @@ header {
   background-color: #33cc33;
   color: white;
   padding: 15px;
+  border: 1px #33cc33 solid;
   margin: 0 auto;
-  margin-top: 1%;
   width: 200px;
+  transition-duration: 0.3s;
+  border-radius: 10%;
 }
 
-.image-results img{
+.whatsapp-redirect:hover {
+  background-color: white;
+  color: #33cc33;
+  border: 1px darkgreen solid;
+}
+
+.image-results h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.image-results img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -85,25 +81,13 @@ header {
   background-color: #6bbef1;
 }
 
-.company-history p{
+.company-history p {
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
 
-.company-history a{
-  display: flex;
-  justify-content: center;
-  font: bold 15px Arial;
-  text-decoration: none;
-  background-color: #33cc33;
-  color: white;
-  padding: 15px;
-  margin: 0 auto;
-  width: 200px;
-}
-
-summary p{
+summary p {
   padding: 1em;
 }
 
@@ -111,12 +95,12 @@ summary p{
   padding: 25px;
 }
 
-footer p{
+footer p {
   display: flex;
   justify-content: center;
 }
 
-footer a{
+footer a {
   display: flex;
   justify-content: center;
 }

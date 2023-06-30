@@ -11,10 +11,35 @@ Comentário do desenvolvedor: talvez seja necessário a adição de outras cores
 no Main Colors, para um design um pouco mais rico
 */
 
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  /* padding: 1rem; */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #2e8cc7;
+  height: 90px;
+}
+
+.invisible {
+  width: 130px;
+}
+
+.main-title {
+  color: aliceblue;
+  font-style: normal;
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  left: 100px;
+}
+
+.logotipo {
+  border-radius: 100%;
 }
 
 .logo {
@@ -36,7 +61,21 @@ header {
 }
 
 .main {
-  background-color: #6bbef1;
+  background-color: #158dc1;
+  background-image: url("./img/Post limpeza de estofado sofá a domicílio amarelo e azul (2).png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: auto;
 }
 
 .main p {
@@ -56,13 +95,17 @@ header {
   margin: 0 auto;
   width: 200px;
   transition-duration: 0.3s;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .whatsapp-redirect:hover {
   background-color: white;
   color: #33cc33;
   border: 1px darkgreen solid;
+}
+
+.space {
+  width: 5px
 }
 
 .image-results h3 {
@@ -91,13 +134,21 @@ summary p {
   padding: 1em;
 }
 
-.split {
-  padding: 25px;
+.split #low-divisor {
+  height: 300px;
+  width: 100%;
+  background-color: #2775db;
+}
+
+footer {
+  background-color: #2775db;
 }
 
 footer p {
+  margin-top: 0%;
   display: flex;
   justify-content: center;
+  color: #eaf7ff;
 }
 
 footer a {

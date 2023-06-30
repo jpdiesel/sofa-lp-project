@@ -10,3 +10,78 @@ Auxiliar desing colors:
 Comentário do desenvolvedor: talvez seja necessário a adição de outras cores do mesmo espectro de cores 
 no Main Colors, para um design um pouco mais rico
 */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main p{
+  display: flex;
+  justify-content: center;
+}
+
+.main a{
+  display: flex;
+  justify-content: center;
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #33cc33;
+  color: white;
+  padding: 15px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.image-results h3{
+  display: flex;
+  justify-content: center;
+}
+
+.image-results a{
+  display: flex;
+  justify-content: center;
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #33cc33;
+  color: white;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 1%;
+  width: 200px;
+}
+
+.image-results img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.company-history p{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.company-history a{
+  display: flex;
+  justify-content: center;
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #33cc33;
+  color: white;
+  padding: 15px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+}
+
+footer a{
+  display: flex;
+  justify-content: center;
+}

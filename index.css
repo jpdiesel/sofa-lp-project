@@ -26,6 +26,12 @@ header {
   height: 90px;
 }
 
+.name {
+  margin-top: 18px;
+  width: 550px;
+  height: 50px;
+}
+
 .invisible {
   width: 130px;
 }
@@ -149,6 +155,7 @@ footer p {
   display: flex;
   justify-content: center;
   color: #eaf7ff;
+  font-family: 'Brush Script MT', cursive;
 }
 
 footer a {

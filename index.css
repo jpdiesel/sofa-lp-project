@@ -36,14 +36,6 @@ header {
   width: 130px;
 }
 
-.main-title {
-  color: aliceblue;
-  font-style: normal;
-  font-family: 'Brush Script MT', cursive;
-  text-align: center;
-  left: 100px;
-}
-
 .logotipo {
   border-radius: 100%;
 }
@@ -110,34 +102,9 @@ header {
   border: 1px darkgreen solid;
 }
 
-.space {
-  width: 5px
-}
-
-.image-results h3 {
-  display: flex;
-  justify-content: center;
-}
-
-.image-results img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-}
-
-.company-history {
-  background-color: #6bbef1;
-}
-
-.company-history p {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-summary p {
-  padding: 1em;
+.whatsapp-icon {
+  margin-top: 2px;
+  margin-right: 3px;
 }
 
 .split #low-divisor {
@@ -148,6 +115,7 @@ summary p {
 
 footer {
   background-color: #2775db;
+  height: 160px;
 }
 
 footer p {
@@ -160,5 +128,65 @@ footer p {
 
 footer a {
   display: flex;
-  justify-content: center;
+  justify-content:right;
+}
+
+.footer-provocation {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.email-submition {
+  display: flex;
+  justify-content: center;  
+}
+
+.email-box {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #2e8cc7;
+  width: 300px;
+  height: 35px;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  background-color: rgb(212, 228, 241);
+}
+
+.email-box:hover {
+  border-color: darkblue;
+  border-style: solid;
+  background-color: white;
+}
+
+.email-box:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+.divisor {
+  padding: 5px
+}
+
+.submit-button {
+  height: 35px;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #2e8cc7;
+  background-color: rgb(212, 228, 241);
+  transition-duration: 0.3s;
+  /* padding-left: 15px; */
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: white;
+  border-style: solid;
+  border-color: darkblue;
 }

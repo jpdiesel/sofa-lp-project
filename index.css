@@ -18,11 +18,10 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  /* padding: 1rem; */
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #2e8cc7;
+  background-color: #2775db;
   height: 90px;
 }
 
@@ -47,31 +46,53 @@ header {
   display: flex;
   justify-content: center;
   padding: 3px 2px 0.1px 1px;
-  background-color: #2e8cc7;
+  background-color: #2775db;
   transition-duration: 0.3s;
 }
 
 .logo:hover {
   background-color: rgb(165, 245, 245);
-  /* border: 1px, aliceblue, solid; */
 }
 
 .main {
-  background-color: #158dc1;
+  background-color: #2e8cc7;
   background-image: url("./img/Post limpeza de estofado sofá a domicílio amarelo e azul (2).png");
+  background-size: 800px;
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  overflow-y: scroll;
 }
 
-.main-img {
+.sofa-background {
+  background-image: url("./img/Post limpeza de estofado sofá a domicílio amarelo e azul (6).png");
+  background-size: 600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.front-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 400px;
-  width: auto;
+  height: 600px;
+}
+
+.upper-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 300px;
+}
+
+.lower-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
 }
 
 .main p {
@@ -88,7 +109,10 @@ header {
   color: white;
   padding: 15px;
   border: 1px #33cc33 solid;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 200px;
   transition-duration: 0.3s;
   border-radius: 5%;

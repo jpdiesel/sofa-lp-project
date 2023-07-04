@@ -1,0 +1,106 @@
+/* Código HEX das cores usadas na imagem enviada pelo cliente:
+
+Main colors:
+- Azul claro: #2e8cc7
+- Branco azulado: #eaf7ff (não é um branco absoluto, por isso achei necessário pegar o HEX dessa cor)
+
+Auxiliar desing colors:
+- Verde Whatsapp: #33cc33
+
+Comentário do desenvolvedor: talvez seja necessário a adição de outras cores do mesmo espectro de cores 
+no Main Colors, para um design um pouco mais rico
+*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+#whatslogo {
+  text-align: var(--e-icon-list-icon-align);
+  margin-top: 4em;
+}
+
+#number {
+  margin-top: 4em;
+  margin-right: 4em;
+}
+
+.main {
+  background-color: #6bbef1;
+}
+
+.main p {
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp-redirect {
+  display: flex;
+  justify-content: center;
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #33cc33;
+  color: white;
+  padding: 15px;
+  border: 1px #33cc33 solid;
+  margin: 0 auto;
+  width: 200px;
+  transition-duration: 0.3s;
+  border-radius: 10%;
+}
+
+.whatsapp-redirect:hover {
+  background-color: white;
+  color: #33cc33;
+  border: 1px darkgreen solid;
+}
+
+.image-results h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.image-results img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.company-history {
+  background-color: #6bbef1;
+}
+
+.company-history p {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+summary p {
+  padding: 1em;
+}
+
+.split {
+  padding: 25px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+}

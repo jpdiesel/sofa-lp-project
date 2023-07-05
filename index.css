@@ -52,7 +52,7 @@ header {
 }
 
 .logo:hover {
-  background-color: rgb(165, 245, 245);
+  background-color: #a5f5f5;
   /* border: 1px, rgb(165, 245, 245), solid; */
 }
 
@@ -64,7 +64,7 @@ header {
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain 800px;
+  background-size: cover;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -80,7 +80,7 @@ header {
 } */
 
 .sofa-background {
-  background-size: 800px;
+  background-size: 700px;
   height: 600px;
   /* width: 1900px; */
   background-image: url("./img/Post limpeza de estofado sofá a domicílio amarelo e azul (6).png");
@@ -226,7 +226,7 @@ footer a {
   border-radius: 25px;
   border-style: solid;
   border-color: #2e8cc7;
-  background-color: rgb(212, 228, 241);
+  background-color: #d4e4f1;
   transition-duration: 0.3s;
   /* padding-left: 15px; */
 }
@@ -236,4 +236,87 @@ footer a {
   background-color: white;
   border-style: solid;
   border-color: darkblue;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    /* width: 100%; */
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+    display: flexbox;
+    justify-content: space-between;
+    height: 10%;
+  }
+
+  .name {
+    width: 75%;
+    height: 26px;
+    margin-top: 25px;
+    /* left: 65%; */
+  }
+
+  .logo {
+    width: 20px;
+    height: 10px;
+    display: flex;
+    justify-content: right;
+    margin: 10px 10px 38px 39px;
+  }
+
+  .logotipo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo:hover {
+    background-color: #2775db;
+  }
+
+  .main {
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .sofa-background {
+    width: 100%;
+    background-size: 76%;
+    height: 40%;
+  }
+
+  .upper-img {
+    height: 33%;
+  }
+
+  .whatsapp-redirect:hover {
+    background-color: #33cc33;
+    border: 1px #33cc33 solid;
+    color: white;
+  }
+  
+  .lower-img {
+    height: 15%;
+  }
+
+  .footer-provocation {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5px;
+  }
+
+  .footer-sub-text {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .email-box {
+    width: 195px;
+    height: 32px
+  }
+
+  .error {
+    font-size: 12px;
+  }
 }

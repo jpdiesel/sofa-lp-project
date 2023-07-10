@@ -320,3 +320,9 @@ footer a {
     font-size: 12px;
   }
 }
+
+@media screen and (min-height: 850px) {
+  .body {
+    zoom: 100%;
+  }
+}
